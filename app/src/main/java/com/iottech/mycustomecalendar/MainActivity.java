@@ -10,8 +10,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.iottech.mycustomecalendar.retro.ApiClient;
-import com.iottech.mycustomecalendar.retro.ApiInterface;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -32,8 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
     CustomCalendarView calendarView;
     Calendar currentCalendar;
-    String user_id;
-    ImageView iv_back;
+
 
     List<String> presentList = new ArrayList<>();
     List<String> absentList = new ArrayList<>();
@@ -60,7 +57,6 @@ public class MainActivity extends AppCompatActivity {
         //call refreshCalendar to update calendar the view
         calendarView.refreshCalendar(currentCalendar);
 
-//        hitCalenderApi();
         String persent = "2022-04-19,2022-11-03,2022-11-04,2022-11-09,2022-11-15,2022-11-16,2022-11-17,2022-11-21,2022-11-23,2022-11-24,2022-11-25,2022-11-29,2023-02-01,2023-02-02,2023-02-03,2023-02-06,2023-02-07,2023-02-09";
         presentList = Arrays.asList(persent.split(","));
         List<DayDecorator> decorators = new ArrayList<>();

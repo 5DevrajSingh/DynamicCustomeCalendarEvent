@@ -9,16 +9,16 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:layout_weight="1"
         android:tag="dayOfMonthContainer15">
 
         <com.iottech.mycustomecalendar.DayView
-            style="@style/CalendarView.DayOfTheMonth"
-            android:fontFamily="@font/baumans"
+
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/_35dp"
+            android:layout_margin="@dimen/_2dp"
             android:layout_centerInParent="true"
             android:gravity="center"
             android:tag="dayOfMonthText15"
@@ -27,16 +27,16 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:layout_weight="1"
         android:tag="dayOfMonthContainer16">
 
         <com.iottech.mycustomecalendar.DayView
-            style="@style/CalendarView.DayOfTheMonth"
-            android:fontFamily="@font/baumans"
+
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/_35dp"
+            android:layout_margin="@dimen/_2dp"
             android:layout_centerInParent="true"
             android:gravity="center"
             android:tag="dayOfMonthText16"
@@ -45,16 +45,16 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:layout_weight="1"
         android:tag="dayOfMonthContainer17">
 
         <com.iottech.mycustomecalendar.DayView
-            style="@style/CalendarView.DayOfTheMonth"
-            android:fontFamily="@font/baumans"
+
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/_35dp"
+            android:layout_margin="@dimen/_2dp"
             android:layout_centerInParent="true"
             android:gravity="center"
             android:tag="dayOfMonthText17"
@@ -63,16 +63,16 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:layout_weight="1"
         android:tag="dayOfMonthContainer18">
 
         <com.iottech.mycustomecalendar.DayView
-            style="@style/CalendarView.DayOfTheMonth"
-            android:fontFamily="@font/baumans"
+
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/_35dp"
+            android:layout_margin="@dimen/_2dp"
             android:layout_centerInParent="true"
             android:gravity="center"
             android:tag="dayOfMonthText18"
@@ -81,16 +81,16 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:layout_weight="1"
         android:tag="dayOfMonthContainer19">
 
         <com.iottech.mycustomecalendar.DayView
-            style="@style/CalendarView.DayOfTheMonth"
-            android:fontFamily="@font/baumans"
+
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/_35dp"
+            android:layout_margin="@dimen/_2dp"
             android:layout_centerInParent="true"
             android:gravity="center"
             android:tag="dayOfMonthText19"
@@ -99,16 +99,16 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:layout_weight="1"
         android:tag="dayOfMonthContainer20">
 
         <com.iottech.mycustomecalendar.DayView
-            style="@style/CalendarView.DayOfTheMonth"
-            android:fontFamily="@font/baumans"
+
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/_35dp"
+            android:layout_margin="@dimen/_2dp"
             android:layout_centerInParent="true"
             android:gravity="center"
             android:tag="dayOfMonthText20"
@@ -118,16 +118,16 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:layout_weight="1"
         android:tag="dayOfMonthContainer21">
 
         <com.iottech.mycustomecalendar.DayView
-            android:fontFamily="@font/baumans"
-            style="@style/CalendarView.DayOfTheMonth"
+
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/_35dp"
+            android:layout_margin="@dimen/_2dp"
             android:layout_centerInParent="true"
             android:gravity="center"
             android:tag="dayOfMonthText21"

@@ -28,4 +28,5 @@
     <dimen name="dayOfWeekTextSize">16sp</dimen>
     <dimen name="padding">8dp</dimen>
     <dimen name="_15sp">15sp</dimen>
+    <dimen name="_35dp">35dp</dimen>
 </resources>
